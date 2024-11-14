@@ -1,5 +1,11 @@
-// Set current year
-document.getElementById("currentyear").textContent = new Date().getFullYear();
+// Set current year in the footer
+const currentYearSpan = document.getElementById("currentyear");
+if (currentYearSpan) {
+    currentYearSpan.textContent = new Date().getFullYear();
+}
 
 // Display last modified date
-document.getElementById("lastModified").textContent = "Last Updated: " + document.lastModified;
+const lastModifiedParagraph = document.getElementById("lastModified");
+if (lastModifiedParagraph) {
+    lastModifiedParagraph.textContent = "Last Updated: " + document.lastModified;
+}

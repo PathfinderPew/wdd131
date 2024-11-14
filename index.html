@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Brandon Pew</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Brandon Pew - Home Page">
+    <meta name="author" content="Brandon Pew">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>Welcome to My Dynamic Web Page</h1>
+        <nav>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://byui.instructure.com">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
     </header>
+
+    <!-- Main Content -->
     <main>
-        <section>
+        <!-- About Me Section -->
+        <section class="card">
             <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile picture of Brandon Pew">
+            <p>Hi, I'm Brandon Pew. I'm passionate about web development and learning new technologies.</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="card">
+            <h2>Projects</h2>
+            <p>Here are some of my projects:</p>
+            <ul>
+                <li><a href="https://github.com/PathfinderPew">GitHub Repository</a></li>
+                <li><a href="#">Final Project (Coming Soon)</a></li>
+            </ul>
         </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
         <p>&copy; <span id="currentyear"></span> Brandon Pew, USA</p>
         <p id="lastModified"></p>
