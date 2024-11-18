@@ -1,0 +1,9 @@
+/* Large Screen Styles */
+#menu-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
