@@ -1,0 +1,65 @@
+/* Global Variables */
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #f0f0f0;
+    --text-color: #333;
+    --header-bg: #e0f7fa;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--header-bg);
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+main {
+    padding: 1rem;
+}
+
+.hero {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.weather {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--header-bg);
+    border-radius: 8px;
+}
+
+.weather-icon {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+}
