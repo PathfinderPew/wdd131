@@ -10,6 +10,7 @@ body {
     background-color: #f7f7f7;
     color: #333;
     padding: 1rem;
+    line-height: 1.6;
 }
 
 /* Header Styles */
@@ -42,6 +43,7 @@ nav ul a {
 
 nav ul a:hover {
     color: #005fa3;
+    text-decoration: underline;
 }
 
 /* Main Section Styles */
@@ -80,4 +82,8 @@ footer {
 /* Active Navigation Menu */
 #menu-links.active {
     display: flex;
+}
+
+.hidden {
+    display: none !important;
 }

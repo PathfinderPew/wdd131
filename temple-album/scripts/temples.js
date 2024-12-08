@@ -8,5 +8,6 @@ const menuLinks = document.getElementById('menu-links');
 
 hamburger.addEventListener('click', () => {
     menuLinks.classList.toggle('active');
+    menuLinks.classList.toggle('hidden');
     hamburger.textContent = menuLinks.classList.contains('active') ? 'X' : '☰';
 });
