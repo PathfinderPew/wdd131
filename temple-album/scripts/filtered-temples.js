@@ -1,13 +1,13 @@
 const temples = [
-    { name: "Salt Lake Temple", location: "Salt Lake City, UT", dedication: "1893", area: 253015, image: "https://example.com/salt-lake.jpg" },
-    { name: "Nauvoo Temple", location: "Nauvoo, IL", dedication: "1846", area: 54000, image: "https://example.com/nauvoo.jpg" },
-    { name: "Provo City Center Temple", location: "Provo, UT", dedication: "2016", area: 85000, image: "https://example.com/provo.jpg" },
-    { name: "Rome Temple", location: "Rome, Italy", dedication: "2019", area: 95000, image: "https://example.com/rome.jpg" },
-    { name: "Laie Temple", location: "Laie, HI", dedication: "1919", area: 45000, image: "https://example.com/laie.jpg" },
-    // Add three new temples here
-    { name: "Tokyo Temple", location: "Tokyo, Japan", dedication: "1980", area: 150000, image: "https://example.com/tokyo.jpg" },
-    { name: "Paris Temple", location: "Paris, France", dedication: "2017", area: 44400, image: "https://example.com/paris.jpg" },
-    { name: "San Diego Temple", location: "San Diego, CA", dedication: "1993", area: 72000, image: "https://example.com/san-diego.jpg" }
+    { name: "Salt Lake Temple", location: "Salt Lake City, UT", dedication: "1893", area: 253015, image: "images/temple1.jpg" },
+    { name: "Nauvoo Temple", location: "Nauvoo, IL", dedication: "1846", area: 54000, image: "images/temple2.jpg" },
+    { name: "Provo City Center Temple", location: "Provo, UT", dedication: "2016", area: 85000, image: "images/temple3.jpg" },
+    { name: "Rome Temple", location: "Rome, Italy", dedication: "2019", area: 95000, image: "images/temple4.jpg" },
+    { name: "Laie Temple", location: "Laie, HI", dedication: "1919", area: 45000, image: "images/temple5.jpg" },
+    { name: "Tokyo Temple", location: "Tokyo, Japan", dedication: "1980", area: 150000, image: "images/temple6.jpg" },
+    { name: "Paris Temple", location: "Paris, France", dedication: "2017", area: 44400, image: "images/temple7.jpg" },
+    { name: "San Diego Temple", location: "San Diego, CA", dedication: "1993", area: 72000, image: "images/temple8.jpg" },
+    { name: "Copenhagen Temple", location: "Copenhagen, Denmark", dedication: "2004", area: 25000, image: "images/temple9.jpg" }
 ];
 
 // Create a temple card dynamically
