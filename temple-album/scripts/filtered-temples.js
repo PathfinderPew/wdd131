@@ -1,13 +1,13 @@
 const temples = [
-    { name: "Salt Lake Temple", location: "Salt Lake City, UT", dedication: "1893", area: 253015, image: "images/temple1.jpg" },
-    { name: "Nauvoo Temple", location: "Nauvoo, IL", dedication: "1846", area: 54000, image: "images/temple2.jpg" },
-    { name: "Provo City Center Temple", location: "Provo, UT", dedication: "2016", area: 85000, image: "images/temple3.jpg" },
-    { name: "Rome Temple", location: "Rome, Italy", dedication: "2019", area: 95000, image: "images/temple4.jpg" },
-    { name: "Laie Temple", location: "Laie, HI", dedication: "1919", area: 45000, image: "images/temple5.jpg" },
-    { name: "Tokyo Temple", location: "Tokyo, Japan", dedication: "1980", area: 150000, image: "images/temple6.jpg" },
-    { name: "Paris Temple", location: "Paris, France", dedication: "2017", area: 44400, image: "images/temple7.jpg" },
-    { name: "San Diego Temple", location: "San Diego, CA", dedication: "1993", area: 72000, image: "images/temple8.jpg" },
-    { name: "Copenhagen Temple", location: "Copenhagen, Denmark", dedication: "2004", area: 25000, image: "images/temple9.jpg" }
+    { name: "Las Vegas Temple", location: "Las Vegas, NV", dedication: "1989", area: 80000, image: "images/temple1.jpg" },
+    { name: "St. Louis Temple", location: "St. Louis, MO", dedication: "1997", area: 108000, image: "images/temple2.jpg" },
+    { name: "Oakland Temple", location: "Oakland, CA", dedication: "1964", area: 95000, image: "images/temple3.jpg" },
+    { name: "Mount Timpanogos Temple", location: "American Fork, UT", dedication: "1996", area: 104000, image: "images/temple4.jpg" },
+    { name: "Provo Temple", location: "Provo, UT", dedication: "1972", area: 128325, image: "images/temple5.jpg" },
+    { name: "Rexburg Temple", location: "Rexburg, ID", dedication: "2008", area: 57000, image: "images/temple6.jpg" },
+    { name: "Rome Temple", location: "Rome, Italy", dedication: "2019", area: 95000, image: "images/temple7.jpg" },
+    { name: "Sacramento Temple", location: "Sacramento, CA", dedication: "2006", area: 19400, image: "images/temple8.jpg" },
+    { name: "Phoenix Temple", location: "Phoenix, AZ", dedication: "2014", area: 58000, image: "images/temple9.jpg" }
 ];
 
 // Create a temple card dynamically
