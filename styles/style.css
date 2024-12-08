@@ -41,7 +41,10 @@ main {
     border-radius: 8px;
 }
 
-.weather-icon {
+.weather-icon::before {
+    content: "☀"; /* Default Weather Emoticon */
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
     display: inline-block;
 }
 
@@ -61,5 +64,9 @@ footer {
 
     .hero img {
         width: 100%;
+    }
+
+    .weather-icon::before {
+        content: "";
     }
 }
