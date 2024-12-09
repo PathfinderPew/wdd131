@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a beautiful collection of temple photos in our responsive and accessible photo album.">
+    <title>Temple Album</title>
+    <!-- Link CSS files (mobile-first) -->
+    <link rel="stylesheet" href="styles/temple.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <!-- Header with Navigation Menu -->
+    <header>
+        <h1>Temple Album</h1>
+        <nav id="nav-menu" aria-label="Main Navigation">
+            <button id="hamburger" aria-label="Menu">&#9776;</button>
+            <ul id="menu-links" class="hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Temple Gallery</h2>
+        <section id="gallery" aria-label="Temple Images Gallery">
+            <!-- 9 Figures with Temple Images -->
+            <figure>
+                <img src="images/temple1.jpg" alt="A beautiful temple with intricate carvings" loading="lazy">
+                <figcaption>Temple 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple2.jpg" alt="A serene temple in a lush forest" loading="lazy">
+                <figcaption>Temple 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple3.jpg" alt="An ancient temple by the river" loading="lazy">
+                <figcaption>Temple 3</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple4.jpg" alt="A magnificent temple with golden spires" loading="lazy">
+                <figcaption>Temple 4</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple5.jpg" alt="A small rustic temple in the mountains" loading="lazy">
+                <figcaption>Temple 5</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple6.jpg" alt="A large temple complex with gardens" loading="lazy">
+                <figcaption>Temple 6</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple7.jpg" alt="A temple at sunset overlooking a valley" loading="lazy">
+                <figcaption>Temple 7</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple8.jpg" alt="A grand temple with decorative statues" loading="lazy">
+                <figcaption>Temple 8</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple9.jpg" alt="A quaint temple by a lake" loading="lazy">
+                <figcaption>Temple 9</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Temple Album</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
