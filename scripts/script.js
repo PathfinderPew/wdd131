@@ -1,24 +1,24 @@
-// Footer: Set the current year and last modified date
-document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = document.lastModified;
+document.addEventListener('DOMContentLoaded', () => {
+    const eventList = document.getElementById('event-list');
+    const form = document.getElementById('event-form');
 
-// Weather: Calculate Wind Chill
-function calculateWindChill(temp, windSpeed) {
-    if (temp <= 10 && windSpeed > 4.8) {
-        return (
-            13.12 +
-            0.6215 * temp -
-            11.37 * Math.pow(windSpeed, 0.16) +
-            0.3965 * temp * Math.pow(windSpeed, 0.16)
-        ).toFixed(1);
-    }
-    return "N/A";
-}
+    const events = [
+        'Mountain Hike - Jan 15, 2024',
+        'Trail Cleanup - Feb 20, 2024',
+        'Night Trek - Mar 5, 2024',
+    ];
 
-// Static values for temperature and wind speed
-const temperature = 10; // in °C
-const windSpeed = 10; // in km/h
+    events.forEach(event => {
+        const li = document.createElement('li');
+        li.textContent = event;
+        eventList.appendChild(li);
+    });
 
-// Update Wind Chill Display
-const windChill = calculateWindChill(temperature, windSpeed);
-document.getElementById("windChill").textContent = `${windChill} °C`;
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        alert(`Thank you, ${name}! Registration confirmed.`);
+        form.reset();
+    });
+});

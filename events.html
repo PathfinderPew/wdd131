@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Mountain Explorers Club - your local hiking and adventure group.">
-    <title>Mountain Explorers Club</title>
+    <meta name="description" content="Register for upcoming Mountain Explorers Club events.">
+    <title>Events</title>
     <link rel="stylesheet" href="styles/style.css">
     <script defer src="scripts/script.js"></script>
 </head>
@@ -21,15 +21,18 @@
     </header>
     <main>
         <section>
-            <h2>Welcome to the Mountain Explorers Club</h2>
-            <p>Join us for thrilling adventures, breathtaking hikes, and unforgettable experiences in the great outdoors.</p>
+            <h2>Upcoming Events</h2>
+            <ul id="event-list"></ul>
         </section>
         <section>
-            <h2>Gallery</h2>
-            <div class="gallery">
-                <img src="images/hike1.jpg" alt="Hiking trail" loading="lazy">
-                <img src="images/hike2.jpg" alt="Mountain view" loading="lazy">
-            </div>
+            <h2>Register for an Event</h2>
+            <form id="event-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Register</button>
+            </form>
         </section>
     </main>
     <footer>
