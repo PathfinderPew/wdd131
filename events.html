@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <img src="images/byui-logo.png" alt="BYU-I Logo" class="logo">
         <h1>Mountain Explorers Club</h1>
         <nav>
             <ul>
@@ -28,9 +29,15 @@
             <h2>Register for an Event</h2>
             <form id="event-form">
                 <label for="name">Name:</label>
-                <input type="text" id="name" required>
+                <input type="text" id="name" aria-label="Full Name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" aria-label="Email Address" required>
+                <label for="event-select">Select Event:</label>
+                <select id="event-select">
+                    <option value="hike">Mountain Hike</option>
+                    <option value="cleanup">Trail Cleanup</option>
+                    <option value="trek">Night Trek</option>
+                </select>
                 <button type="submit">Register</button>
             </form>
         </section>
